@@ -1,0 +1,26 @@
+/* Dracula, Moby Dick, Peter Pan oldstyle background */
+
+body {
+	background-image: url("old_background.jpg");
+	font-family: "Times New Roman", Georgia, Serif;
+}
+
+p {
+	text-align: left;
+	font-style: italic;
+}
+
+/* for paragraph spacing in between p */
+p + p {
+	text-indent:2em;
+}
+
+h1 {
+	font-size: 48pt;
+
+}
+
+h2 {
+	font-size: 24pt;
+
+}

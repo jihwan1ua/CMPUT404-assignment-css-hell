@@ -1,0 +1,56 @@
+header {
+	position: relative;
+	background-image: url("rainbow.png");
+	height: 100pt;
+	width: 100%;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+body {
+	background-color: gray;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+p.head {
+	text-align: center;
+	margin-top: 5em;
+	word-spacing: 20pt;
+	letter-spacing: 2pt;
+}
+
+p.content {
+	position: relative;
+	text-align: left;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: red;
+}
+
+p.sidebar {
+	position: relative;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: blue;
+	display: inline;
+}
+
+.container {
+	position:relative;
+	padding:0 0 0 105px;
+}
+
+#sidebar {
+	position: absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	width:100px;
+	background-color: yellow;
+}
+
+#header { border:1px solid #000; width:100px; height:20px; 
+    margin:0 0 5px 0;
+}
+#content { border:1px solid #000;
+}
+#footer { border:1px solid #000; width:100px; height:20px;
+    margin:5px 0 0 0;
+}
